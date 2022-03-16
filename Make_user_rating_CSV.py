@@ -32,4 +32,4 @@ loaded_user_movie_ratings_df_long = loaded_user_movie_ratings_df.reset_index().m
 print(loaded_user_movie_ratings_df_long.head())
 
 if create_csv:
-	loaded_user_movie_ratings_df_long.to_csv("H20_MovieData.csv")
+	loaded_user_movie_ratings_df_long.to_csv("H2O_MovieData.csv")
